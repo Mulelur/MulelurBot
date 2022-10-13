@@ -43,7 +43,7 @@ def chat(update: Update, context: CallbackContext):
         )
     else:  
         update.message.reply_text(
-        "Sorry '%s' please type hello" % update.message.text
+        "Sorry I can't recognize '%s' please type hello" % update.message.text
         )
 
 def unknown(update: Update, context: CallbackContext):
@@ -73,5 +73,6 @@ print(
     """
     MuleluR Bot Started! 
 
-    """)
+    """
+)
 

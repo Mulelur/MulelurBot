@@ -1,7 +1,7 @@
 {
   "name": "MuleluRBot",
   "description": "Just another Telegram AI chat bot written in Python using Pyrogram.",
-  "repository": "https://github.com",
+  "repository": "https://github.com/Mulelur/MulelurBot",
   "keywords": [
     "python",
     "ai-bot",

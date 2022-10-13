@@ -12,7 +12,7 @@ A public running instance can be found on telegram as [@MulelurBot](https://t.me
 ## Installation
 
 ```sh
-$ git clone https://github.com/
+$ git clone https://github.com/Mulelur/MulelurBot
 $ cd MuleluRBot
 $ pip3 install -U -r requirements.txt
 $ cp sample_config.py config.py
@@ -21,7 +21,7 @@ $ cp sample_config.py config.py
 Edit `config.py` with your own values.
 
 ```sh
-$ python3 luna.py
+$ python3 main.py
 ```
 
 ## Heroku
