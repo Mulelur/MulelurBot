@@ -23,7 +23,7 @@ updater = Updater(bot_token,
 				use_context=True)
 
 
-async def  start(update: Update, context: CallbackContext):
+def start(update: Update, context: CallbackContext):
 	update.message.reply_text(
 		"Hello, Welcome to the MulelurBot. Please write\
 		/Hello get a dad joke")
