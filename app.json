@@ -1,0 +1,24 @@
+{
+  "name": "MuleluRBot",
+  "description": "Just another Telegram AI chat bot written in Python using Pyrogram.",
+  "repository": "https://github.com",
+  "keywords": [
+    "python",
+    "ai-bot",
+    "telegram-ai-bot",
+    "telegram-bot",
+    "pyrogram"
+  ],
+  "stack": "heroku-20",
+  "env": {
+    "bot_token": {
+      "description": "Your Bot's Api Token ,Get it from @BotFather",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
